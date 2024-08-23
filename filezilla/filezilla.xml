@@ -132,8 +132,12 @@
 		<Setting name="Remote filelist colwidths">224 103 80 158 80 85</Setting>
 		<Setting name="Remote filelist sortorder">0 0</Setting>
 		<Setting name="Local filelist colwidths">240 110 92 154</Setting>
-		<Setting name="Splitter positions (v2)">100 -145 437021572 200 200 500000000</Setting>
-		<Setting name="Window position and size">0 1008 38 700 774 </Setting>
+		<Setting name="Last automatic update check">2024-08-21 12:58:33</Setting>
+		<Setting name="Update Check New Version" platform="mac">release 3.67.0
+</Setting>
+		<Setting name="Site Manager position">0 -1284 552 1056 439 </Setting>
+		<Setting name="Splitter positions (v2)">200 -295 437021572 146 146 500000000</Setting>
+		<Setting name="Window position and size">0 1481 890 1512 788 </Setting>
 		<Setting name="Tab data" sensitive="1">
 			<Tabs>
 				<Tab selected="1">
@@ -152,9 +156,5 @@
 				</Tab>
 			</Tabs>
 		</Setting>
-		<Setting name="Last automatic update check">2024-08-21 12:58:33</Setting>
-		<Setting name="Update Check New Version" platform="mac">release 3.67.0
-</Setting>
-		<Setting name="Site Manager position">0 -1284 552 1056 439 </Setting>
 	</Settings>
 </FileZilla3>
