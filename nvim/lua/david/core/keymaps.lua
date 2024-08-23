@@ -21,3 +21,27 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
 keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
+
+-- Compile the document
+keymap.set("n", "<leader>lb", ":VimtexCompile<CR>", { noremap = true, silent = true })
+
+-- View the PDF
+keymap.set("n", "<leader>lv", ":VimtexView<CR>", { noremap = true, silent = true })
+
+-- Stop compilation
+keymap.set("n", "<leader>lk", ":VimtexStop<CR>", { noremap = true, silent = true })
+
+-- Clean auxiliary files
+keymap.set("n", "<leader>lc", ":VimtexClean<CR>", { noremap = true, silent = true })
+
+-- Toggle automatic compilation
+keymap.set("n", "<leader>lt", ":VimtexCompileToggle<CR>", { noremap = true, silent = true })
+
+-- Forward search from PDF viewer
+keymap.set("n", "<leader>lf", ":VimtexInverseSearch<CR>", { noremap = true, silent = true })
+
+-- Show document structure
+keymap.set("n", "<leader>ls", ":VimtexTocToggle<CR>", { noremap = true, silent = true })
+
+-- Toggle quickfix window
+keymap.set("n", "<leader>lq", ":VimtexErrors<CR>", { noremap = true, silent = true })

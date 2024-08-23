@@ -16,5 +16,7 @@ return {
 			"specifier changed to",
 			"Token not allowed in a PDF string",
 		}
+		vim.g["vimtex_skim_sync"] = 1
+		vim.g["vimtex_view_skim_activate"] = 1
 	end,
 }

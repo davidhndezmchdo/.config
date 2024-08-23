@@ -56,5 +56,5 @@ opt.writebackup = false
 
 -- EDIT
 opt.spell = true
-opt.spelllang = { "en_uk" }
+opt.spelllang = { "en_us" }
 opt.autoread = true
