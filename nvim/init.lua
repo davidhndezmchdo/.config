@@ -1,2 +1,2 @@
-require("neotex.core")
-require("neotex.bootstrap")
+require("david.core")
+require("david.lazy")
