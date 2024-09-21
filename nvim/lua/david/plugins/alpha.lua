@@ -40,7 +40,7 @@ return {
 	event = "VimEnter",
 	dependencies = {
 		"nvim-tree/nvim-web-devicons",
-		"Shatur/neovim-session-manager",
+		-- "Shatur/neovim-session-manager",
 	},
 	config = function()
 		local alpha = require("alpha")
